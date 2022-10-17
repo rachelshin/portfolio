@@ -1,7 +1,7 @@
 # Portfolio
 Website showcasing my web development and design work for restaurants.
 
-<!-- **Link to project:** http://rachelshin.netlify.com/ -->
+**Link to project:** http://rachelshin.netlify.com/
 
 ![alt tag](images/portfolioscreenshot.png)
 
