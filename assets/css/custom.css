@@ -8888,3 +8888,8 @@ input, select, textarea {
 		.spotlight{
 			margin-top: 0px;
 		}
+		@media screen and (orientation: portrait){
+			li{
+				text-align: left;
+			}
+		}
