@@ -36,7 +36,7 @@ body {
 }
 
 .tiles {
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .spotlight {
@@ -49,10 +49,21 @@ body {
   }
 }
 
+/* Section headings */
+.section-heading {
+  text-align: center;
+  padding: 3rem 2rem 1rem;
+  margin: 0;
+}
+
+.tiles {
+  box-shadow: none !important;
+}
+
 /* Apps */
 .apps-section {
   text-align: center;
-  padding: 2rem 2rem 0;
+  padding: 3rem 2rem;
 }
 
 .apps-section h3 {
@@ -63,7 +74,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
 }
 
 .app-item {
@@ -121,23 +132,27 @@ body {
   transition: none !important;
 }
 
+.tiles article {
+  overflow: visible;
+}
+
 .tile-desc {
-  max-height: 0;
-  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
   opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition: opacity 0.3s ease;
   font-size: 0.85rem;
   color: var(--text-subtle);
   text-align: center;
-  padding: 0;
+  padding: 0.5rem 0;
   margin: 0;
   line-height: 1.4;
 }
 
 .tiles article:hover .tile-desc {
-  max-height: 3em;
   opacity: 1;
-  padding: 0.5rem 0;
 }
 
 @media screen and (max-width: 736px) {
